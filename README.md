@@ -1,6 +1,6 @@
 # UGC Sample App for Video Reviews
 
-This is a mockup of a product page that handles user-generated content (UGC) using Cloudinary's advanced capabilities. People can upload a video review of the product, which is moderated for inappropriate content and malware, as well as being processed for video chapters and transcription for captions.  The video is displayed at 16:9 aspect ratio with automatic gravity and captions displayed. 
+This is a mockup of a product page that handles user-generated content (UGC) using Cloudinary's advanced capabilities. People can upload a video review of the product, which is moderated for inappropriate content and malware, as well as being processed for video chapters and transcription for captions and translated subtitles.  The video is displayed at 16:9 aspect ratio with automatic gravity and captions displayed. 
 
 It's a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app), built on Next.js 14 and the Next.js App Router.
 
