@@ -58,12 +58,12 @@ export function CloudinaryVideoPlayer({ publicId }: CloudinaryVideoPlayerProps) 
         posterOptions: {aspect_ratio: "16:9", crop: "fill", gravity: "auto", width: 600}
       })
 
-      player.source({
-        publicId,
+      player.source(
+        publicId, {
         transformation: [{aspect_ratio: "16:9", crop: "fill", gravity: "auto", width: 600}],
         textTracks: {
           captions: {
-            label: 'English(captions)',
+            label: 'English (captions)',
             default: true,
             maxWords: 5,
           },
