@@ -54,8 +54,11 @@ export function ProductReviews() {
       const widget = window.cloudinary.createUploadWidget(
         {
           cloudName: CLOUDINARY_CONFIG.cloudName,
+          clientAllowedFormats: 'video',
           uploadPreset: CLOUDINARY_CONFIG.uploadPreset,
           sources: ["local"],
+          multiple: false,
+          maxFiles: 1,
           resourceType: "video",
         },
         (error: any, result: any) => {
